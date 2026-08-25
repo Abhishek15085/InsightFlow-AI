@@ -1,0 +1,71 @@
+# ============================================================
+# InsightFlow AI — .gitignore
+# ============================================================
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+
+# --- Virtual Environment ---
+venv/
+env/
+.venv/
+ENV/
+
+# --- Streamlit ---
+.streamlit/secrets.toml
+
+# --- Environment Variables ---
+.env
+.env.local
+.env.*.local
+
+# --- Datasets & Outputs (large files) ---
+datasets/*.csv
+datasets/*.xlsx
+datasets/*.json
+datasets/*.parquet
+outputs/
+models/*.pkl
+models/*.joblib
+models/*.json
+
+# --- Reports (auto-generated) ---
+reports/*.html
+reports/*.pdf
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb
+
+# --- Testing ---
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# --- Docker ---
+*.tar
+
+# --- Frontend (React) ---
+frontend/node_modules/
+frontend/dist/
+
+# --- Vector Database ---
+chroma_db/

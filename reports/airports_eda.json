@@ -1,0 +1,214 @@
+{
+  "filename": "airports.csv",
+  "generated_at": "2026-08-20T14:46:42.412879+00:00Z",
+  "shape": {
+    "rows": 85324,
+    "columns": 19
+  },
+  "numeric_columns": [
+    "id",
+    "latitude_deg",
+    "longitude_deg",
+    "elevation_ft"
+  ],
+  "categorical_columns": [
+    "ident",
+    "type",
+    "name",
+    "continent",
+    "iso_country",
+    "iso_region",
+    "municipality",
+    "scheduled_service",
+    "icao_code",
+    "iata_code",
+    "gps_code",
+    "local_code",
+    "home_link",
+    "wikipedia_link",
+    "keywords"
+  ],
+  "total_missing_cells": 514580,
+  "duplicate_rows": 0,
+  "column_stats": {
+    "id": {
+      "type": "numeric",
+      "count": 85324,
+      "missing": 0,
+      "mean": 204777.522878,
+      "std": 198775.740153,
+      "min": 2.0,
+      "max": 608429.0
+    },
+    "latitude_deg": {
+      "type": "numeric",
+      "count": 85324,
+      "missing": 0,
+      "mean": 25.819361,
+      "std": 26.214437,
+      "min": -90.0,
+      "max": 83.091029
+    },
+    "longitude_deg": {
+      "type": "numeric",
+      "count": 85324,
+      "missing": 0,
+      "mean": -27.406068,
+      "std": 85.281889,
+      "min": -179.876999,
+      "max": 179.9757
+    },
+    "elevation_ft": {
+      "type": "numeric",
+      "count": 70538,
+      "missing": 14786,
+      "mean": 1292.7379,
+      "std": 1657.564129,
+      "min": -1266.0,
+      "max": 17372.0
+    },
+    "ident": {
+      "type": "categorical",
+      "count": 85324,
+      "missing": 0,
+      "unique": 85324,
+      "top_value": "00A",
+      "top_freq": 1
+    },
+    "type": {
+      "type": "categorical",
+      "count": 85324,
+      "missing": 0,
+      "unique": 7,
+      "top_value": "small_airport",
+      "top_freq": 42601
+    },
+    "name": {
+      "type": "categorical",
+      "count": 85324,
+      "missing": 0,
+      "unique": 80800,
+      "top_value": "Centre Hospitalier Heliport",
+      "top_freq": 49
+    },
+    "continent": {
+      "type": "categorical",
+      "count": 45775,
+      "missing": 39549,
+      "unique": 6,
+      "top_value": "AS",
+      "top_freq": 12672
+    },
+    "iso_country": {
+      "type": "categorical",
+      "count": 85021,
+      "missing": 303,
+      "unique": 246,
+      "top_value": "US",
+      "top_freq": 32488
+    },
+    "iso_region": {
+      "type": "categorical",
+      "count": 85324,
+      "missing": 0,
+      "unique": 3007,
+      "top_value": "US-TX",
+      "top_freq": 3866
+    },
+    "municipality": {
+      "type": "categorical",
+      "count": 80616,
+      "missing": 4708,
+      "unique": 38015,
+      "top_value": "Osaka",
+      "top_freq": 420
+    },
+    "scheduled_service": {
+      "type": "categorical",
+      "count": 85324,
+      "missing": 0,
+      "unique": 2,
+      "top_value": "no",
+      "top_freq": 80900
+    },
+    "icao_code": {
+      "type": "categorical",
+      "count": 10036,
+      "missing": 75288,
+      "unique": 10036,
+      "top_value": "AGAF",
+      "top_freq": 1
+    },
+    "iata_code": {
+      "type": "categorical",
+      "count": 9056,
+      "missing": 76268,
+      "unique": 9056,
+      "top_value": "AAA",
+      "top_freq": 1
+    },
+    "gps_code": {
+      "type": "categorical",
+      "count": 44194,
+      "missing": 41130,
+      "unique": 44194,
+      "top_value": "00AA",
+      "top_freq": 1
+    },
+    "local_code": {
+      "type": "categorical",
+      "count": 36068,
+      "missing": 49256,
+      "unique": 34560,
+      "top_value": "AMA",
+      "top_freq": 5
+    },
+    "home_link": {
+      "type": "categorical",
+      "count": 4698,
+      "missing": 80626,
+      "unique": 4646,
+      "top_value": "https://www.fuerzaaerea.mil.py",
+      "top_freq": 17
+    },
+    "wikipedia_link": {
+      "type": "categorical",
+      "count": 16692,
+      "missing": 68632,
+      "unique": 16578,
+      "top_value": "https://es.wikipedia.org/wiki/Fuerza_A\u00e9rea_Paraguaya",
+      "top_freq": 17
+    },
+    "keywords": {
+      "type": "categorical",
+      "count": 21290,
+      "missing": 64034,
+      "unique": 20773,
+      "top_value": "Mukho",
+      "top_freq": 48
+    }
+  },
+  "outlier_summary": [
+    {
+      "column": "elevation_ft",
+      "outlier_count": 6366,
+      "outlier_pct": 7.46,
+      "q1": 207.0,
+      "q3": 1608.0,
+      "iqr": 1401.0,
+      "lower_fence": -1894.5,
+      "upper_fence": 3709.5
+    },
+    {
+      "column": "latitude_deg",
+      "outlier_count": 1055,
+      "outlier_pct": 1.24,
+      "q1": 11.0342,
+      "q3": 43.0898,
+      "iqr": 32.0555,
+      "lower_fence": -37.0491,
+      "upper_fence": 91.1731
+    }
+  ],
+  "total_outlier_rows": 7407
+}

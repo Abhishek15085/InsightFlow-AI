@@ -1,0 +1,274 @@
+{
+  "filename": "listings.csv",
+  "generated_at": "2026-08-20T14:57:54.816793+00:00Z",
+  "shape": {
+    "rows": 353,
+    "columns": 18
+  },
+  "numeric_columns": [
+    "id",
+    "host_id",
+    "neighbourhood_group",
+    "latitude",
+    "longitude",
+    "price",
+    "minimum_nights",
+    "number_of_reviews",
+    "reviews_per_month",
+    "calculated_host_listings_count",
+    "availability_365",
+    "number_of_reviews_ltm",
+    "license"
+  ],
+  "categorical_columns": [
+    "name",
+    "host_name",
+    "neighbourhood",
+    "room_type",
+    "last_review"
+  ],
+  "total_missing_cells": 821,
+  "duplicate_rows": 0,
+  "column_stats": {
+    "id": {
+      "type": "numeric",
+      "count": 353,
+      "missing": 0,
+      "mean": 5.84975365104758e+17,
+      "std": 5.569865857408573e+17,
+      "min": 1125097.0,
+      "max": 1.5055321280717527e+18
+    },
+    "host_id": {
+      "type": "numeric",
+      "count": 353,
+      "missing": 0,
+      "mean": 264861512.339943,
+      "std": 196794703.949407,
+      "min": 2425103.0,
+      "max": 703827282.0
+    },
+    "neighbourhood_group": {
+      "type": "numeric",
+      "count": 0,
+      "missing": 353,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "latitude": {
+      "type": "numeric",
+      "count": 353,
+      "missing": 0,
+      "mean": -34.540097,
+      "std": 0.08332,
+      "min": -34.779164,
+      "max": -34.23201
+    },
+    "longitude": {
+      "type": "numeric",
+      "count": 353,
+      "missing": 0,
+      "mean": 138.974399,
+      "std": 0.072516,
+      "min": 138.6437,
+      "max": 139.12019
+    },
+    "price": {
+      "type": "numeric",
+      "count": 318,
+      "missing": 35,
+      "mean": 392.113208,
+      "std": 345.074526,
+      "min": 69.0,
+      "max": 3000.0
+    },
+    "minimum_nights": {
+      "type": "numeric",
+      "count": 353,
+      "missing": 0,
+      "mean": 7.373938,
+      "std": 74.961631,
+      "min": 1.0,
+      "max": 999.0
+    },
+    "number_of_reviews": {
+      "type": "numeric",
+      "count": 353,
+      "missing": 0,
+      "mean": 62.144476,
+      "std": 94.460454,
+      "min": 0.0,
+      "max": 599.0
+    },
+    "reviews_per_month": {
+      "type": "numeric",
+      "count": 313,
+      "missing": 40,
+      "mean": 1.438466,
+      "std": 1.365747,
+      "min": 0.03,
+      "max": 7.59
+    },
+    "calculated_host_listings_count": {
+      "type": "numeric",
+      "count": 353,
+      "missing": 0,
+      "mean": 2.699717,
+      "std": 2.518212,
+      "min": 1.0,
+      "max": 10.0
+    },
+    "availability_365": {
+      "type": "numeric",
+      "count": 353,
+      "missing": 0,
+      "mean": 243.331445,
+      "std": 111.025312,
+      "min": 0.0,
+      "max": 365.0
+    },
+    "number_of_reviews_ltm": {
+      "type": "numeric",
+      "count": 353,
+      "missing": 0,
+      "mean": 12.1983,
+      "std": 15.081042,
+      "min": 0.0,
+      "max": 76.0
+    },
+    "license": {
+      "type": "numeric",
+      "count": 0,
+      "missing": 353,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "name": {
+      "type": "categorical",
+      "count": 353,
+      "missing": 0,
+      "unique": 352,
+      "top_value": "Auricht Cottage",
+      "top_freq": 2
+    },
+    "host_name": {
+      "type": "categorical",
+      "count": 353,
+      "missing": 0,
+      "unique": 190,
+      "top_value": "Jane",
+      "top_freq": 11
+    },
+    "neighbourhood": {
+      "type": "categorical",
+      "count": 353,
+      "missing": 0,
+      "unique": 27,
+      "top_value": "Tanunda",
+      "top_freq": 105
+    },
+    "room_type": {
+      "type": "categorical",
+      "count": 353,
+      "missing": 0,
+      "unique": 3,
+      "top_value": "Entire home/apt",
+      "top_freq": 308
+    },
+    "last_review": {
+      "type": "categorical",
+      "count": 313,
+      "missing": 40,
+      "unique": 150,
+      "top_value": "2025-09-21",
+      "top_freq": 15
+    }
+  },
+  "outlier_summary": [
+    {
+      "column": "latitude",
+      "outlier_count": 38,
+      "outlier_pct": 10.76,
+      "q1": -34.5761,
+      "q3": -34.5009,
+      "iqr": 0.0752,
+      "lower_fence": -34.689,
+      "upper_fence": -34.388
+    },
+    {
+      "column": "number_of_reviews",
+      "outlier_count": 32,
+      "outlier_pct": 9.07,
+      "q1": 4.0,
+      "q3": 81.0,
+      "iqr": 77.0,
+      "lower_fence": -111.5,
+      "upper_fence": 196.5
+    },
+    {
+      "column": "price",
+      "outlier_count": 20,
+      "outlier_pct": 5.67,
+      "q1": 205.75,
+      "q3": 439.75,
+      "iqr": 234.0,
+      "lower_fence": -145.25,
+      "upper_fence": 790.75
+    },
+    {
+      "column": "calculated_host_listings_count",
+      "outlier_count": 20,
+      "outlier_pct": 5.67,
+      "q1": 1.0,
+      "q3": 4.0,
+      "iqr": 3.0,
+      "lower_fence": -3.5,
+      "upper_fence": 8.5
+    },
+    {
+      "column": "number_of_reviews_ltm",
+      "outlier_count": 15,
+      "outlier_pct": 4.25,
+      "q1": 1.0,
+      "q3": 19.0,
+      "iqr": 18.0,
+      "lower_fence": -26.0,
+      "upper_fence": 46.0
+    },
+    {
+      "column": "reviews_per_month",
+      "outlier_count": 11,
+      "outlier_pct": 3.12,
+      "q1": 0.42,
+      "q3": 2.06,
+      "iqr": 1.64,
+      "lower_fence": -2.04,
+      "upper_fence": 4.52
+    },
+    {
+      "column": "longitude",
+      "outlier_count": 7,
+      "outlier_pct": 1.98,
+      "q1": 138.9457,
+      "q3": 139.0309,
+      "iqr": 0.0851,
+      "lower_fence": 138.8181,
+      "upper_fence": 139.1585
+    },
+    {
+      "column": "minimum_nights",
+      "outlier_count": 3,
+      "outlier_pct": 0.85,
+      "q1": 1.0,
+      "q3": 2.0,
+      "iqr": 1.0,
+      "lower_fence": -0.5,
+      "upper_fence": 3.5
+    }
+  ],
+  "total_outlier_rows": 107
+}

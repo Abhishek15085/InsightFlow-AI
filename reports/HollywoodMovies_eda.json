@@ -1,0 +1,265 @@
+{
+  "filename": "HollywoodMovies.csv",
+  "generated_at": "2026-08-20T14:46:27.073084+00:00Z",
+  "shape": {
+    "rows": 970,
+    "columns": 16
+  },
+  "numeric_columns": [
+    "RottenTomatoes",
+    "AudienceScore",
+    "TheatersOpenWeek",
+    "OpeningWeekend",
+    "BOAvgOpenWeekend",
+    "DomesticGross",
+    "ForeignGross",
+    "WorldGross",
+    "Budget",
+    "Profitability",
+    "OpenProfit",
+    "Year"
+  ],
+  "categorical_columns": [
+    "Movie",
+    "LeadStudio",
+    "Story",
+    "Genre"
+  ],
+  "total_missing_cells": 1156,
+  "duplicate_rows": 1,
+  "column_stats": {
+    "RottenTomatoes": {
+      "type": "numeric",
+      "count": 913,
+      "missing": 57,
+      "mean": 51.707558,
+      "std": 26.821268,
+      "min": 0.0,
+      "max": 99.0
+    },
+    "AudienceScore": {
+      "type": "numeric",
+      "count": 907,
+      "missing": 63,
+      "mean": 61.271224,
+      "std": 16.602457,
+      "min": 19.0,
+      "max": 96.0
+    },
+    "TheatersOpenWeek": {
+      "type": "numeric",
+      "count": 949,
+      "missing": 21,
+      "mean": 2495.246575,
+      "std": 1164.223356,
+      "min": 1.0,
+      "max": 4468.0
+    },
+    "OpeningWeekend": {
+      "type": "numeric",
+      "count": 969,
+      "missing": 1,
+      "mean": 20.620826,
+      "std": 25.338689,
+      "min": 0.01,
+      "max": 207.44
+    },
+    "BOAvgOpenWeekend": {
+      "type": "numeric",
+      "count": 945,
+      "missing": 25,
+      "mean": 8562.593651,
+      "std": 10645.135565,
+      "min": 28.0,
+      "max": 147262.0
+    },
+    "DomesticGross": {
+      "type": "numeric",
+      "count": 970,
+      "missing": 0,
+      "mean": 68.162544,
+      "std": 80.409969,
+      "min": 0.06,
+      "max": 760.5
+    },
+    "ForeignGross": {
+      "type": "numeric",
+      "count": 876,
+      "missing": 94,
+      "mean": 101.237419,
+      "std": 155.987696,
+      "min": 0.0,
+      "max": 2021.0
+    },
+    "WorldGross": {
+      "type": "numeric",
+      "count": 914,
+      "missing": 56,
+      "mean": 169.009945,
+      "std": 227.74438,
+      "min": 0.1,
+      "max": 2781.5
+    },
+    "Budget": {
+      "type": "numeric",
+      "count": 897,
+      "missing": 73,
+      "mean": 56.117168,
+      "std": 53.755914,
+      "min": 0.0,
+      "max": 300.0
+    },
+    "Profitability": {
+      "type": "numeric",
+      "count": 896,
+      "missing": 74,
+      "mean": 384.6201,
+      "std": 631.666012,
+      "min": 2.3,
+      "max": 10175.85
+    },
+    "OpenProfit": {
+      "type": "numeric",
+      "count": 895,
+      "missing": 75,
+      "mean": 62.223575,
+      "std": 159.713218,
+      "min": 0.16,
+      "max": 3373.0
+    },
+    "Year": {
+      "type": "numeric",
+      "count": 970,
+      "missing": 0,
+      "mean": 2010.236082,
+      "std": 1.95484,
+      "min": 2007.0,
+      "max": 2013.0
+    },
+    "Movie": {
+      "type": "categorical",
+      "count": 970,
+      "missing": 0,
+      "unique": 968,
+      "top_value": "All About Steve",
+      "top_freq": 2
+    },
+    "LeadStudio": {
+      "type": "categorical",
+      "count": 961,
+      "missing": 9,
+      "unique": 59,
+      "top_value": "Independent",
+      "top_freq": 133
+    },
+    "Story": {
+      "type": "categorical",
+      "count": 641,
+      "missing": 329,
+      "unique": 42,
+      "top_value": "Comedy",
+      "top_freq": 80
+    },
+    "Genre": {
+      "type": "categorical",
+      "count": 691,
+      "missing": 279,
+      "unique": 14,
+      "top_value": "Comedy",
+      "top_freq": 177
+    }
+  },
+  "outlier_summary": [
+    {
+      "column": "ForeignGross",
+      "outlier_count": 92,
+      "outlier_pct": 9.48,
+      "q1": 16.6675,
+      "q3": 111.9087,
+      "iqr": 95.2412,
+      "lower_fence": -126.1944,
+      "upper_fence": 254.7706
+    },
+    {
+      "column": "TheatersOpenWeek",
+      "outlier_count": 84,
+      "outlier_pct": 8.66,
+      "q1": 2054.0,
+      "q3": 3285.0,
+      "iqr": 1231.0,
+      "lower_fence": 207.5,
+      "upper_fence": 5131.5
+    },
+    {
+      "column": "WorldGross",
+      "outlier_count": 83,
+      "outlier_pct": 8.56,
+      "q1": 38.3575,
+      "q3": 202.31,
+      "iqr": 163.9525,
+      "lower_fence": -207.5712,
+      "upper_fence": 448.2387
+    },
+    {
+      "column": "OpenProfit",
+      "outlier_count": 80,
+      "outlier_pct": 8.25,
+      "q1": 19.505,
+      "q3": 58.375,
+      "iqr": 38.87,
+      "lower_fence": -38.8,
+      "upper_fence": 116.68
+    },
+    {
+      "column": "BOAvgOpenWeekend",
+      "outlier_count": 71,
+      "outlier_pct": 7.32,
+      "q1": 3528.0,
+      "q3": 9790.0,
+      "iqr": 6262.0,
+      "lower_fence": -5865.0,
+      "upper_fence": 19183.0
+    },
+    {
+      "column": "DomesticGross",
+      "outlier_count": 69,
+      "outlier_pct": 7.11,
+      "q1": 17.565,
+      "q3": 89.2525,
+      "iqr": 71.6875,
+      "lower_fence": -89.9663,
+      "upper_fence": 196.7837
+    },
+    {
+      "column": "OpeningWeekend",
+      "outlier_count": 68,
+      "outlier_pct": 7.01,
+      "q1": 5.3,
+      "q3": 26.2,
+      "iqr": 20.9,
+      "lower_fence": -26.05,
+      "upper_fence": 57.55
+    },
+    {
+      "column": "Budget",
+      "outlier_count": 62,
+      "outlier_pct": 6.39,
+      "q1": 20.0,
+      "q3": 75.0,
+      "iqr": 55.0,
+      "lower_fence": -62.5,
+      "upper_fence": 157.5
+    },
+    {
+      "column": "Profitability",
+      "outlier_count": 61,
+      "outlier_pct": 6.29,
+      "q1": 150.02,
+      "q3": 417.9875,
+      "iqr": 267.9675,
+      "lower_fence": -251.9312,
+      "upper_fence": 819.9387
+    }
+  ],
+  "total_outlier_rows": 296
+}

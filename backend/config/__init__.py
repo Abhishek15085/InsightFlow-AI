@@ -1,0 +1,1 @@
+# InsightFlow AI — Configuration package

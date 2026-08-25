@@ -1,0 +1,313 @@
+{
+  "filename": "movies1.csv",
+  "generated_at": "2026-07-30T10:33:25.950154+00:00Z",
+  "shape": {
+    "rows": 4803,
+    "columns": 24
+  },
+  "numeric_columns": [
+    "index",
+    "budget",
+    "id",
+    "popularity",
+    "revenue",
+    "runtime",
+    "vote_average",
+    "vote_count"
+  ],
+  "categorical_columns": [
+    "genres",
+    "homepage",
+    "keywords",
+    "original_language",
+    "original_title",
+    "overview",
+    "production_companies",
+    "production_countries",
+    "release_date",
+    "spoken_languages",
+    "status",
+    "tagline",
+    "title",
+    "cast",
+    "crew",
+    "director"
+  ],
+  "total_missing_cells": 4456,
+  "duplicate_rows": 0,
+  "column_stats": {
+    "index": {
+      "type": "numeric",
+      "count": 4803,
+      "missing": 0,
+      "mean": 2401.0,
+      "std": 1386.651002,
+      "min": 0.0,
+      "max": 4802.0
+    },
+    "budget": {
+      "type": "numeric",
+      "count": 4803,
+      "missing": 0,
+      "mean": 29045039.875286,
+      "std": 40722391.25855,
+      "min": 0.0,
+      "max": 380000000.0
+    },
+    "id": {
+      "type": "numeric",
+      "count": 4803,
+      "missing": 0,
+      "mean": 57165.484281,
+      "std": 88694.614033,
+      "min": 5.0,
+      "max": 459488.0
+    },
+    "popularity": {
+      "type": "numeric",
+      "count": 4803,
+      "missing": 0,
+      "mean": 21.492301,
+      "std": 31.81665,
+      "min": 0.0,
+      "max": 875.581305
+    },
+    "revenue": {
+      "type": "numeric",
+      "count": 4803,
+      "missing": 0,
+      "mean": 82260638.651676,
+      "std": 162857100.94283,
+      "min": 0.0,
+      "max": 2787965087.0
+    },
+    "runtime": {
+      "type": "numeric",
+      "count": 4801,
+      "missing": 2,
+      "mean": 106.875859,
+      "std": 22.611935,
+      "min": 0.0,
+      "max": 338.0
+    },
+    "vote_average": {
+      "type": "numeric",
+      "count": 4803,
+      "missing": 0,
+      "mean": 6.092172,
+      "std": 1.194612,
+      "min": 0.0,
+      "max": 10.0
+    },
+    "vote_count": {
+      "type": "numeric",
+      "count": 4803,
+      "missing": 0,
+      "mean": 690.217989,
+      "std": 1234.585891,
+      "min": 0.0,
+      "max": 13752.0
+    },
+    "genres": {
+      "type": "categorical",
+      "count": 4775,
+      "missing": 28,
+      "unique": 1168,
+      "top_value": "Drama",
+      "top_freq": 370
+    },
+    "homepage": {
+      "type": "categorical",
+      "count": 1712,
+      "missing": 3091,
+      "unique": 1691,
+      "top_value": "http://www.missionimpossible.com/",
+      "top_freq": 4
+    },
+    "keywords": {
+      "type": "categorical",
+      "count": 4391,
+      "missing": 412,
+      "unique": 4219,
+      "top_value": "independent film",
+      "top_freq": 55
+    },
+    "original_language": {
+      "type": "categorical",
+      "count": 4803,
+      "missing": 0,
+      "unique": 37,
+      "top_value": "en",
+      "top_freq": 4505
+    },
+    "original_title": {
+      "type": "categorical",
+      "count": 4803,
+      "missing": 0,
+      "unique": 4801,
+      "top_value": "Batman",
+      "top_freq": 2
+    },
+    "overview": {
+      "type": "categorical",
+      "count": 4799,
+      "missing": 4,
+      "unique": 4799,
+      "top_value": "\"88 Minutes\" focuses on a college professor (Pacino) who moonlights as a forensic psychiatrist for the FBI and receives a death threat claiming he has only 88 minutes to live.",
+      "top_freq": 1
+    },
+    "production_companies": {
+      "type": "categorical",
+      "count": 4803,
+      "missing": 0,
+      "unique": 3697,
+      "top_value": "[]",
+      "top_freq": 351
+    },
+    "production_countries": {
+      "type": "categorical",
+      "count": 4803,
+      "missing": 0,
+      "unique": 469,
+      "top_value": "[{\"iso_3166_1\": \"US\", \"name\": \"United States of America\"}]",
+      "top_freq": 2977
+    },
+    "release_date": {
+      "type": "categorical",
+      "count": 4802,
+      "missing": 1,
+      "unique": 3280,
+      "top_value": "2006-01-01",
+      "top_freq": 10
+    },
+    "spoken_languages": {
+      "type": "categorical",
+      "count": 4803,
+      "missing": 0,
+      "unique": 544,
+      "top_value": "[{\"iso_639_1\": \"en\", \"name\": \"English\"}]",
+      "top_freq": 3171
+    },
+    "status": {
+      "type": "categorical",
+      "count": 4803,
+      "missing": 0,
+      "unique": 3,
+      "top_value": "Released",
+      "top_freq": 4795
+    },
+    "tagline": {
+      "type": "categorical",
+      "count": 3959,
+      "missing": 844,
+      "unique": 3944,
+      "top_value": "Based on a true story.",
+      "top_freq": 3
+    },
+    "title": {
+      "type": "categorical",
+      "count": 4803,
+      "missing": 0,
+      "unique": 4800,
+      "top_value": "Batman",
+      "top_freq": 2
+    },
+    "cast": {
+      "type": "categorical",
+      "count": 4760,
+      "missing": 43,
+      "unique": 4741,
+      "top_value": "William Shatner Leonard Nimoy DeForest Kelley James Doohan George Takei",
+      "top_freq": 6
+    },
+    "crew": {
+      "type": "categorical",
+      "count": 4802,
+      "missing": 1,
+      "unique": 4775,
+      "top_value": "[]",
+      "top_freq": 28
+    },
+    "director": {
+      "type": "categorical",
+      "count": 4773,
+      "missing": 30,
+      "unique": 2349,
+      "top_value": "Steven Spielberg",
+      "top_freq": 27
+    }
+  },
+  "outlier_summary": [
+    {
+      "column": "id",
+      "outlier_count": 704,
+      "outlier_pct": 14.66,
+      "q1": 9014.5,
+      "q3": 58610.5,
+      "iqr": 49596.0,
+      "lower_fence": -65379.5,
+      "upper_fence": 133004.5
+    },
+    {
+      "column": "vote_count",
+      "outlier_count": 504,
+      "outlier_pct": 10.49,
+      "q1": 54.0,
+      "q3": 737.0,
+      "iqr": 683.0,
+      "lower_fence": -970.5,
+      "upper_fence": 1761.5
+    },
+    {
+      "column": "revenue",
+      "outlier_count": 472,
+      "outlier_pct": 9.83,
+      "q1": 0.0,
+      "q3": 92917187.0,
+      "iqr": 92917187.0,
+      "lower_fence": -139375780.5,
+      "upper_fence": 232292967.5
+    },
+    {
+      "column": "budget",
+      "outlier_count": 321,
+      "outlier_pct": 6.68,
+      "q1": 790000.0,
+      "q3": 40000000.0,
+      "iqr": 39210000.0,
+      "lower_fence": -58025000.0,
+      "upper_fence": 98815000.0
+    },
+    {
+      "column": "popularity",
+      "outlier_count": 275,
+      "outlier_pct": 5.73,
+      "q1": 4.6681,
+      "q3": 28.3135,
+      "iqr": 23.6454,
+      "lower_fence": -30.8001,
+      "upper_fence": 63.7817
+    },
+    {
+      "column": "runtime",
+      "outlier_count": 182,
+      "outlier_pct": 3.79,
+      "q1": 94.0,
+      "q3": 118.0,
+      "iqr": 24.0,
+      "lower_fence": 58.0,
+      "upper_fence": 154.0
+    },
+    {
+      "column": "vote_average",
+      "outlier_count": 156,
+      "outlier_pct": 3.25,
+      "q1": 5.6,
+      "q3": 6.8,
+      "iqr": 1.2,
+      "lower_fence": 3.8,
+      "upper_fence": 8.6
+    }
+  ],
+  "total_outlier_rows": 1492
+}

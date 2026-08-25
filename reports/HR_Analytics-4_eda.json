@@ -1,0 +1,467 @@
+{
+  "filename": "HR_Analytics-4.csv",
+  "generated_at": "2026-07-29T12:11:51.659352+00:00Z",
+  "shape": {
+    "rows": 1480,
+    "columns": 37
+  },
+  "numeric_columns": [
+    "Age",
+    "DailyRate",
+    "DistanceFromHome(KM)",
+    "Education",
+    "EmployeeCount",
+    "EmployeeNumber",
+    "EnvironmentSatisfaction",
+    "JobInvolvement",
+    "JobLevel",
+    "JobSatisfaction",
+    "MonthlyIncome",
+    "HourlyRate",
+    "NumCompaniesWorked",
+    "SalaryHike %",
+    "PerformanceRating",
+    "RelationshipSatisfaction",
+    "StandardWorkingHours",
+    "StockOptionLevel",
+    "TotalExperience(Years)",
+    "TrainingsLastYear",
+    "WorkLifeBalance",
+    "YearsatCompany",
+    "YearsinCurrentRole",
+    "YearsSincePromotion",
+    "YearsWithCurrManager"
+  ],
+  "categorical_columns": [
+    "EmpID",
+    "AgeGroup",
+    "Attrition",
+    "BusinessTravel",
+    "Department",
+    "EducationField",
+    "Gender",
+    "JobRole",
+    "MaritalStatus",
+    "SalarySlab",
+    "Over18",
+    "OverTime"
+  ],
+  "total_missing_cells": 61,
+  "duplicate_rows": 2,
+  "column_stats": {
+    "Age": {
+      "type": "numeric",
+      "count": 1480,
+      "missing": 0,
+      "mean": 36.936486,
+      "std": 9.092494,
+      "min": 19.0,
+      "max": 60.0
+    },
+    "DailyRate": {
+      "type": "numeric",
+      "count": 1480,
+      "missing": 0,
+      "mean": 801.189865,
+      "std": 403.291325,
+      "min": 102.0,
+      "max": 1499.0
+    },
+    "DistanceFromHome(KM)": {
+      "type": "numeric",
+      "count": 1480,
+      "missing": 0,
+      "mean": 9.235811,
+      "std": 8.125566,
+      "min": 1.0,
+      "max": 29.0
+    },
+    "Education": {
+      "type": "numeric",
+      "count": 1480,
+      "missing": 0,
+      "mean": 2.910811,
+      "std": 1.023796,
+      "min": 1.0,
+      "max": 5.0
+    },
+    "EmployeeCount": {
+      "type": "numeric",
+      "count": 1480,
+      "missing": 0,
+      "mean": 1.0,
+      "std": 0.0,
+      "min": 1.0,
+      "max": 1.0
+    },
+    "EmployeeNumber": {
+      "type": "numeric",
+      "count": 1480,
+      "missing": 0,
+      "mean": 1034.501351,
+      "std": 606.77839,
+      "min": 1.0,
+      "max": 2068.0
+    },
+    "EnvironmentSatisfaction": {
+      "type": "numeric",
+      "count": 1480,
+      "missing": 0,
+      "mean": 2.724324,
+      "std": 1.093197,
+      "min": 1.0,
+      "max": 4.0
+    },
+    "JobInvolvement": {
+      "type": "numeric",
+      "count": 1480,
+      "missing": 0,
+      "mean": 2.731081,
+      "std": 0.71162,
+      "min": 1.0,
+      "max": 4.0
+    },
+    "JobLevel": {
+      "type": "numeric",
+      "count": 1480,
+      "missing": 0,
+      "mean": 2.064865,
+      "std": 1.105574,
+      "min": 1.0,
+      "max": 5.0
+    },
+    "JobSatisfaction": {
+      "type": "numeric",
+      "count": 1480,
+      "missing": 0,
+      "mean": 2.72027,
+      "std": 1.103253,
+      "min": 1.0,
+      "max": 4.0
+    },
+    "MonthlyIncome": {
+      "type": "numeric",
+      "count": 1480,
+      "missing": 0,
+      "mean": 49511.316892,
+      "std": 28774.906198,
+      "min": 1055.0,
+      "max": 99806.0
+    },
+    "HourlyRate": {
+      "type": "numeric",
+      "count": 1480,
+      "missing": 0,
+      "mean": 309.445676,
+      "std": 179.843207,
+      "min": 6.59,
+      "max": 623.79
+    },
+    "NumCompaniesWorked": {
+      "type": "numeric",
+      "count": 1480,
+      "missing": 0,
+      "mean": 2.683108,
+      "std": 2.491958,
+      "min": 0.0,
+      "max": 9.0
+    },
+    "SalaryHike %": {
+      "type": "numeric",
+      "count": 1480,
+      "missing": 0,
+      "mean": 15.210811,
+      "std": 3.658349,
+      "min": 11.0,
+      "max": 25.0
+    },
+    "PerformanceRating": {
+      "type": "numeric",
+      "count": 1480,
+      "missing": 0,
+      "mean": 3.153378,
+      "std": 0.360474,
+      "min": 3.0,
+      "max": 4.0
+    },
+    "RelationshipSatisfaction": {
+      "type": "numeric",
+      "count": 1480,
+      "missing": 0,
+      "mean": 2.706081,
+      "std": 1.083138,
+      "min": 1.0,
+      "max": 4.0
+    },
+    "StandardWorkingHours": {
+      "type": "numeric",
+      "count": 1480,
+      "missing": 0,
+      "mean": 80.0,
+      "std": 0.0,
+      "min": 80.0,
+      "max": 80.0
+    },
+    "StockOptionLevel": {
+      "type": "numeric",
+      "count": 1480,
+      "missing": 0,
+      "mean": 0.789865,
+      "std": 0.84963,
+      "min": 0.0,
+      "max": 3.0
+    },
+    "TotalExperience(Years)": {
+      "type": "numeric",
+      "count": 1480,
+      "missing": 0,
+      "mean": 11.281757,
+      "std": 7.771479,
+      "min": 0.0,
+      "max": 40.0
+    },
+    "TrainingsLastYear": {
+      "type": "numeric",
+      "count": 1480,
+      "missing": 0,
+      "mean": 2.796622,
+      "std": 1.289103,
+      "min": 0.0,
+      "max": 6.0
+    },
+    "WorkLifeBalance": {
+      "type": "numeric",
+      "count": 1480,
+      "missing": 0,
+      "mean": 2.758784,
+      "std": 0.707769,
+      "min": 1.0,
+      "max": 4.0
+    },
+    "YearsatCompany": {
+      "type": "numeric",
+      "count": 1480,
+      "missing": 0,
+      "mean": 7.010135,
+      "std": 6.116342,
+      "min": 0.0,
+      "max": 40.0
+    },
+    "YearsinCurrentRole": {
+      "type": "numeric",
+      "count": 1480,
+      "missing": 0,
+      "mean": 4.224324,
+      "std": 3.616273,
+      "min": 0.0,
+      "max": 18.0
+    },
+    "YearsSincePromotion": {
+      "type": "numeric",
+      "count": 1480,
+      "missing": 0,
+      "mean": 2.180405,
+      "std": 3.219577,
+      "min": 0.0,
+      "max": 15.0
+    },
+    "YearsWithCurrManager": {
+      "type": "numeric",
+      "count": 1419,
+      "missing": 61,
+      "mean": 4.11346,
+      "std": 3.556786,
+      "min": 0.0,
+      "max": 17.0
+    },
+    "EmpID": {
+      "type": "categorical",
+      "count": 1480,
+      "missing": 0,
+      "unique": 1464,
+      "top_value": "VK11320",
+      "top_freq": 2
+    },
+    "AgeGroup": {
+      "type": "categorical",
+      "count": 1480,
+      "missing": 0,
+      "unique": 5,
+      "top_value": "26-35",
+      "top_freq": 611
+    },
+    "Attrition": {
+      "type": "categorical",
+      "count": 1480,
+      "missing": 0,
+      "unique": 2,
+      "top_value": "No",
+      "top_freq": 1239
+    },
+    "BusinessTravel": {
+      "type": "categorical",
+      "count": 1480,
+      "missing": 0,
+      "unique": 4,
+      "top_value": "Travel_Rarely",
+      "top_freq": 1042
+    },
+    "Department": {
+      "type": "categorical",
+      "count": 1480,
+      "missing": 0,
+      "unique": 7,
+      "top_value": "Operations",
+      "top_freq": 540
+    },
+    "EducationField": {
+      "type": "categorical",
+      "count": 1480,
+      "missing": 0,
+      "unique": 6,
+      "top_value": "Life Sciences",
+      "top_freq": 606
+    },
+    "Gender": {
+      "type": "categorical",
+      "count": 1480,
+      "missing": 0,
+      "unique": 2,
+      "top_value": "Male",
+      "top_freq": 888
+    },
+    "JobRole": {
+      "type": "categorical",
+      "count": 1480,
+      "missing": 0,
+      "unique": 9,
+      "top_value": "Sales Executive",
+      "top_freq": 329
+    },
+    "MaritalStatus": {
+      "type": "categorical",
+      "count": 1480,
+      "missing": 0,
+      "unique": 2,
+      "top_value": "Married",
+      "top_freq": 788
+    },
+    "SalarySlab": {
+      "type": "categorical",
+      "count": 1480,
+      "missing": 0,
+      "unique": 4,
+      "top_value": "6-10 LPA",
+      "top_freq": 485
+    },
+    "Over18": {
+      "type": "categorical",
+      "count": 1480,
+      "missing": 0,
+      "unique": 1,
+      "top_value": "Y",
+      "top_freq": 1480
+    },
+    "OverTime": {
+      "type": "categorical",
+      "count": 1480,
+      "missing": 0,
+      "unique": 2,
+      "top_value": "No",
+      "top_freq": 1060
+    }
+  },
+  "outlier_summary": [
+    {
+      "column": "TrainingsLastYear",
+      "outlier_count": 240,
+      "outlier_pct": 16.22,
+      "q1": 2.0,
+      "q3": 3.0,
+      "iqr": 1.0,
+      "lower_fence": 0.5,
+      "upper_fence": 4.5
+    },
+    {
+      "column": "PerformanceRating",
+      "outlier_count": 227,
+      "outlier_pct": 15.34,
+      "q1": 3.0,
+      "q3": 3.0,
+      "iqr": 0.0,
+      "lower_fence": 3.0,
+      "upper_fence": 3.0
+    },
+    {
+      "column": "YearsSincePromotion",
+      "outlier_count": 108,
+      "outlier_pct": 7.3,
+      "q1": 0.0,
+      "q3": 3.0,
+      "iqr": 3.0,
+      "lower_fence": -4.5,
+      "upper_fence": 7.5
+    },
+    {
+      "column": "YearsatCompany",
+      "outlier_count": 105,
+      "outlier_pct": 7.09,
+      "q1": 3.0,
+      "q3": 9.0,
+      "iqr": 6.0,
+      "lower_fence": -6.0,
+      "upper_fence": 18.0
+    },
+    {
+      "column": "StockOptionLevel",
+      "outlier_count": 85,
+      "outlier_pct": 5.74,
+      "q1": 0.0,
+      "q3": 1.0,
+      "iqr": 1.0,
+      "lower_fence": -1.5,
+      "upper_fence": 2.5
+    },
+    {
+      "column": "TotalExperience(Years)",
+      "outlier_count": 63,
+      "outlier_pct": 4.26,
+      "q1": 6.0,
+      "q3": 15.0,
+      "iqr": 9.0,
+      "lower_fence": -7.5,
+      "upper_fence": 28.5
+    },
+    {
+      "column": "NumCompaniesWorked",
+      "outlier_count": 52,
+      "outlier_pct": 3.51,
+      "q1": 1.0,
+      "q3": 4.0,
+      "iqr": 3.0,
+      "lower_fence": -3.5,
+      "upper_fence": 8.5
+    },
+    {
+      "column": "YearsinCurrentRole",
+      "outlier_count": 21,
+      "outlier_pct": 1.42,
+      "q1": 2.0,
+      "q3": 7.0,
+      "iqr": 5.0,
+      "lower_fence": -5.5,
+      "upper_fence": 14.5
+    },
+    {
+      "column": "YearsWithCurrManager",
+      "outlier_count": 13,
+      "outlier_pct": 0.88,
+      "q1": 2.0,
+      "q3": 7.0,
+      "iqr": 5.0,
+      "lower_fence": -5.5,
+      "upper_fence": 14.5
+    }
+  ],
+  "total_outlier_rows": 661
+}
