@@ -17,6 +17,8 @@ services:
     volumes:
       - ./datasets:/app/datasets
       - ./chroma_db:/app/chroma_db
+    env_file:
+      - .env
     environment:
       - PYTHONUNBUFFERED=1
     # Run uvicorn normally without reload for production
