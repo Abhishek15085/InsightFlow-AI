@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { UploadCloud, CheckCircle, BarChart2, MessageSquare } from 'lucide-react';
 import { useData } from '../DataContext';
 import './Header.css';
+import logo from '../assets/logo.png';
 
 const Header: React.FC = () => {
   const { dataset } = useData();
@@ -11,7 +12,7 @@ const Header: React.FC = () => {
     <header className="top-header glass-panel">
       <div className="header-brand">
         <div className="brand-logo" style={{ background: 'transparent', boxShadow: 'none' }}>
-          <img src="/src/assets/logo.png" alt="InsightFlow AI Logo" style={{ width: '36px', height: '36px', objectFit: 'contain' }} />
+          <img src={logo} alt="InsightFlow AI Logo" style={{ width: '36px', height: '36px', objectFit: 'contain' }} />
         </div>
         <h2>InsightFlow AI</h2>
       </div>

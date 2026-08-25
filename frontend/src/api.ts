@@ -1,8 +1,7 @@
 import axios from 'axios';
 
-// Automatically target port 8000 on whatever IP/hostname the frontend is being served from
-// This ensures it works seamlessly both on localhost and when deployed to AWS EC2!
-const API_BASE_URL = import.meta.env.VITE_API_URL || `http://${window.location.hostname}:8000`;
+// In development, target localhost:8000. In production, use empty string to let Nginx proxy handle it.
+const API_BASE_URL = import.meta.env.MODE === 'development' ? 'http://localhost:8000' : '';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
