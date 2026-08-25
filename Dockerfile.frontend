@@ -12,6 +12,9 @@ RUN npm install
 
 # Copy the rest of the frontend source and build
 COPY frontend/ ./
+
+# Increase Node memory limit to 2GB so it doesn't crash on small EC2 instances
+ENV NODE_OPTIONS="--max-old-space-size=2048"
 RUN npm run build
 
 # Stage 2: Serve with Nginx
